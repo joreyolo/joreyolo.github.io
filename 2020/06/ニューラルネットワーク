@@ -1,4 +1,7 @@
 ReLU
 アドバンテージ引用可能
 https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/
+→Weights are set at random values sampled uniformly from a range proportional to the size of the number of nodes in the previous layer (specifically +/- 1/sqrt(n) where n is the number of nodes in the prior layer).
+→When using ReLU in your network and initializing weights to small random values centered on zero, then by default half of the units in the network will output a zero value.
+→He initialization
 
