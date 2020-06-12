@@ -9,4 +9,4 @@ Display an image, i.e. data on a 2D regular raster.
  
 >X:支持ndarray配列orPIL图片<br>
 >interpolation: <https://matplotlib.org/3.1.1/gallery/images_contours_and_fields/interpolation_methods.html>
-                    <br>对于Agg、ps和pdf后端，当大图像缩小时，interpolation = 'none' 工作得很好，而当小图像被放大时，interpolation = 'interpolation = 'none' 则运行正常。
+                    <br>对于Agg、ps和pdf后端，当大图像缩小时，interpolation = 'none' 工作得很好，而当小图像被放大时，interpolation = 　　　　　　　　　'interpolation = 'none' 则运行正常。
