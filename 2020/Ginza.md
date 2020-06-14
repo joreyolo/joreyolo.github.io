@@ -10,7 +10,8 @@
     ★送り仮名や字種の違いなども正規化
       焼肉と焼き肉、醤油としょう油を正規化することで同じ単語であると認識できるようになる 
 ~~~
-5.Spacy <https://www.koi.mashykom.com/spacy_ginza.html>
+
+
 ~~~
 MITライセンス
   MIT Licenseとは次のようなライセンスである。
