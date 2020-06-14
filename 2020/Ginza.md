@@ -18,4 +18,5 @@ MITライセンス
   ➀このソフトウェアを誰でも無償で無制限に扱って良い。ただし、著作権表示および本許諾表示をソフトウェアのすべての複製または重要な部分に記載しなければならない。
   ➁作者または著作権者は、ソフトウェアに関してなんら責任を負わない。
 ~~~
-5.[Spacy公式](https://spacy.io/api/doc)
+5.[Spacy公式](https://spacy.io/api/doc)<br>
+![Spacyのアーキテクチャの図](https://www.ogis-ri.co.jp/otc/hiroba/technical/similar-document-search/img/pic201908-101.png)
