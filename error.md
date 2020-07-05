@@ -1,4 +1,5 @@
-1.ValueError: cannot reindex from a duplicate axis
+1.ValueError: cannot reindex from a duplicate axis<br>
+<http://codingdict.com/questions/1184>
 ```
 由于存在重复索引导致无法reindex
 解决方法：
