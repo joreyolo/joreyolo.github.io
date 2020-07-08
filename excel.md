@@ -1,5 +1,5 @@
 ### 1.BINOM.DIST
->一元二项式分布的概率<br>
+>一元二项式分布的概率:n次中k次成功的概率<br>
 ***=BINOM.DIST(number_s, trials, probability_s, cumulative)***
 ```
 Number_s 必需。 试验的成功次数。
