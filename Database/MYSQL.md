@@ -8,3 +8,5 @@
 <https://cloud.tencent.com/developer/article/1043844>
 ### 5.mysql数据库插入汉字时变成问号？？的解决办法 →没有解决
 <http://blog.sina.com.cn/s/blog_169d019e90102xl3q.html>
+### 6.利用MySQL Workbench导出MySQL创建的数据表关系图图文教程
+<https://blog.csdn.net/dudu_du_dudu/article/details/50364944?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v25-3-50364944.nonecase>
