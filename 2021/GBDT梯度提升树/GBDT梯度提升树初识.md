@@ -38,9 +38,11 @@
 2. 迭代
     - 对于第2到第m棵回归树，我们要计算出每一棵树的训练目标，也就是前面结果的残差:
     - <img src="https://latex.codecogs.com/svg.image?r_{mi}&space;=&space;-\left&space;[&space;\frac{\partial&space;L(y_i,f(x_i))}{\partial&space;f(x_i)}&space;\right&space;]f(x)&space;=&space;f_{m-1}(x)" title="r_{mi} = -\left [ \frac{\partial L(y_i,f(x_i))}{\partial f(x_i)} \right ]f(x) = f_{m-1}(x)" />
+    
     - 对于当前第m棵子树而言，我们需要遍历它的可行的切分点以及阈值，找到最优的预测值c对应的参数，使得尽可能逼近残差。
     - <img src="https://latex.codecogs.com/svg.image?c_{mj}&space;=&space;\underset{c}{argmin}\sum_{x_i\in&space;R_{mj}}L(y_i,f{m-1}(x_i)&plus;c)" title="c_{mj} = \underset{c}{argmin}\sum_{x_i\in R_{mj}}L(y_i,f{m-1}(x_i)+c)" />
       - 这里的R_mj指的是第m棵子树所有的划分方法中叶子节点预测值的集合。也就是**第m棵回归树可能达到的预测值。** 
+    
     - 接着更新 <img src="https://latex.codecogs.com/svg.image?f_m(x)&space;=&space;f_{m-1}(x)&space;&plus;&space;\sum_{j=1}^{J}&space;c_{mj}I(x\in&space;R_{mj})" title="f_m(x) = f_{m-1}(x) + \sum_{j=1}^{J} c_{mj}I(x\in R_{mj})" />
       - 这里的I是一个函数，如果样本落在了R_mj节点上，那么I=1，否则I=0
 3.最后得到回归树
