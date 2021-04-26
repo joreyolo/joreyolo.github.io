@@ -1,4 +1,4 @@
-### [参考文献:详解GBDT梯度提升树原理，看完再也不怕面试了](https://www.cnblogs.com/techflow/p/13445042.html)
+##### [参考文献:详解GBDT梯度提升树原理，看完再也不怕面试了](https://www.cnblogs.com/techflow/p/13445042.html)
 
 ### 1. GBDT基础概念
 - GBDT(Gradient Boosting Decision Tree)即梯度提升决策树。
@@ -12,6 +12,9 @@
       - 比如在Adaboost模型当中，
         - 会设置多个弱分类器，根据这些分类器的表现我们会给他们不同的权值。
         - 通过这种设计尽可能让效果好的分类器拥有高权重，从而保证模型的拟合能力。
-  
+      - GBDT的Boosting方法与众不同，它是由**多棵CART决策回归树**构成的<u>加法模型</u>
+        - 我们可以简单理解成最后整个模型的预测结果是**所有回归树预测结果的和**
+  3. GBDT预测公式
+    - $f_M^{(x)} = \sum_{i=1}^M{T(x,θ)}$  
 
   
